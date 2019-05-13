@@ -26,6 +26,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="59"/>
                                 <state key="normal" title="🙂"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5yf-aO-eav"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEY-kx-gb8">
                                 <rect key="frame" x="80" y="294" width="254" height="132"/>
@@ -34,7 +37,10 @@
                                     <constraint firstAttribute="height" constant="132" id="AmP-N2-dwd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="🥵"/>
+                                <state key="normal" title="🤧"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="20J-zD-zhw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUS-im-iOX">
                                 <rect key="frame" x="80" y="434" width="254" height="132"/>
@@ -43,7 +49,10 @@
                                     <constraint firstAttribute="height" constant="132" id="56N-vv-AQG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="63"/>
-                                <state key="normal" title="🤒"/>
+                                <state key="normal" title="🥵"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V1J-oF-Cbm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlM-sE-1DH">
                                 <rect key="frame" x="80" y="582" width="254" height="132"/>
@@ -53,8 +62,11 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="🤢"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8aw-rz-lzD"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need Medemoji advice? Pick one:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vk-1C-xjy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need Med-emoji advice? Pick one:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vk-1C-xjy">
                                 <rect key="frame" x="66" y="63" width="283" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
